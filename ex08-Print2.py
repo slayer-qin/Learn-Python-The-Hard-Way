@@ -10,3 +10,7 @@ print(formatter.format(
     "Maybe a poem",
     "Or a song about fear"
 ))
+
+formatter2 = "%r %r %r %r"  # %s
+print(formatter2 % (1, 2, 3, 4))
+print(formatter2 % ("one", "two", "three", "four"))
